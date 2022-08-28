@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.6em;
+    padding: 12px 0;
+}
+
+h2, p, ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    padding: 0 2px;
+}
+
+ul {
+    align-self: flex-start;
+    padding-left: 30px;
+}
+
+body {
+    background-color: #ec7393;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+th, td {
+    padding: 2px 20px;
+    text-align: left;
+}
+
+table {
+    max-width: 600px;
+}
+
+
+.profilepic {
+    max-width: 300px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.main-container {
+    background-color: white;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 18px 18px 40px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.title {
+    margin: auto;
+}
+
+.contacts {
+    display: flex;
+}
