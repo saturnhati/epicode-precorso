@@ -2,12 +2,38 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');</style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seconda lezione pre-corso</title>
 </head>
 <body>
-    
+    <h1>COMPILA IL FORM</h1>
+    <div class="main-container"> 
+        <form>
+            <h3>Dati personali:</h3>
+            <input type="text" placeholder="Nome"/>
+            <input type="text" placeholder="Cognome"/>
+            <input type="email" placeholder="Email"/>
+            <input type="password" placeholder="Password"/>
+            <input type="date" placeholder="Data di nascita"/>
+            <input type="number" placeholder="Numero di telefono"/>
+            <div>
+                <h3>Seleziona i generi musicali che preferisci:</h3>
+                <input type="checkbox"/><label>indie-rock</label>
+                <input type="checkbox"/><label>metal</label>
+                <input type="checkbox"/><label>pop punk</label>
+                <input type="checkbox"/><label>elettronica</label>
+                <input type="checkbox"/><label>techno</label>
+            </div>
+            <h3>Accetti i nostri termini e condizioni?</h3>
+            <input type="radio" id="accetto" name="terminiecondizioni" value="Accetto"><label>Accetto</label>
+            <input type="radio" id="nonaccetto" name="terminiecondizioni" value="Non accetto"><label>Non accetto</label>
+            <div>
+                <button class="submitbutton" type="submit" onclick="alert('Registrazione inviata!')">Invia registrazione</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

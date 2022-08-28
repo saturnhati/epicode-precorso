@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 35px 0 6px 0;
+}
+
+input {
+    margin: 10px;
+}
+
+form {
+    max-width: 700px;
+    border: 1px solid black;
+    padding: 20px 20px 20px 30px;
+    border-radius: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.submitbutton {
+    margin: 18px 0;
+}
